@@ -16,7 +16,7 @@ function AppHeader() {
     // Tạo 1 hook là useTranslation
     const { t, i18n } = useTranslation();
 
-    const handleMode = (mode: string) => {
+    const handleMode = (mode: any) => {
         localStorage.setItem("theme", mode);
         document.documentElement.setAttribute('data-bs-theme', mode);
         setTheme(mode);
