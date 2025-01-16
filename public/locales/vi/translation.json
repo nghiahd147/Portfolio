@@ -1,0 +1,29 @@
+{
+    "appHeader": {
+        "logo": "QNDEV",
+        "brand": "Tăng Quang Nghĩa",
+        "home": "Trang chủ",
+        "project": "Dự án",
+        "contact": "Liên hệ",
+        "about": "Về tác giả"
+    },
+    "heroSection": {
+        "exp": "Kinh nghiệm",
+        "cv": "Tải CV"
+    },
+    "introSection": {
+        "about": "Giới thiệu",
+        "and": "và",
+        "heading1": "Hiện tại tôi đang là sinh viên năm thứ 4 học công nghệ thông tin chuyên ngành phần mềm. 💻",
+        "heading2": "Tôi có nền tảng về Javascript và mong muốn được phát triển website với các thư viện liên quan đến Javascript 🌐",
+        "heading3": "Lĩnh vực quan tâm của tôi là",
+        "heading4": "xây dựng các công nghệ web mới và các sản phẩm liên quan",
+        "heading5": "Mục tiêu của tôi hiện tại là trở thành 1 Frontend Developer 😊"
+    },
+    "experience": {
+        "title": "Kinh nghiệm làm việc"
+    },
+    "skill": {
+        "title": "Kỹ năng"
+    }
+}

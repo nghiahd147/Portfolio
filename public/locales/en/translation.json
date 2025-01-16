@@ -1,0 +1,29 @@
+{
+    "appHeader": {
+        "logo": "QNDEV",
+        "brand": "Tang Quang Nghia",
+        "home": "Home",
+        "project": "Project",
+        "contact": "Contact",
+        "about": "About"
+    },
+    "heroSection": {
+        "exp": "My Skill",
+        "cv": "Get CV"
+    },
+    "introSection": {
+        "about": "About me",
+        "and": "and",
+        "heading1": "I am currently a 4th year student majoring in information technology and software.",
+        "heading2": "I have a foundation in JavaScript and aspire to develop websites using JavaScript-related libraries 🌐",
+        "heading3": "My field of Interest's are building new",
+        "heading4": "Web Technologies and Products",
+        "heading5": "My current goal is to become a Frontend Developer 😊"
+    },
+    "experience": {
+        "title": "Experiences"
+    },
+    "skill": {
+        "title": "Skills"
+    }
+}
