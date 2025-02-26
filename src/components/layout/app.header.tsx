@@ -47,10 +47,6 @@ function AppHeader() {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
-                        {/* Ví dụ ở đây ta gọi hàm t và truyền vào 1 dữ liệu json là appHeader.home(trong folder public) 
-                            ở đây ta có 2 file json là tiếng anh và việt cái thư viện này đã hỗ trợ cho cta rồi nó sẽ tự
-                            chuyển đổi ngôn ngữ dựa trên 2 file json (ở dưới có sự kiện click để chuyển đổi)
-                        */}
                         <NavLink className="nav-link" to="/">{t("appHeader.home")}</NavLink>
                         <NavLink className="nav-link" to="/project"> {t("appHeader.project")}</NavLink>
                         <NavLink className="nav-link" to="/about">{t("appHeader.about")}</NavLink>

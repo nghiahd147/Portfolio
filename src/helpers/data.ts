@@ -1,10 +1,10 @@
 import protocolImg from '../assets/project/protocol.png';
 import ecomerceImg from '../assets/project/webthươngmạiđiệntử.png'
+import quizImg from '../assets/project/bannernextjs.png';
 
 export const APP_DATA = {
     YOUTUBE_URL: "https://www.youtube.com/@nghiakaedehara",
-    TIKTOK_URL: "https://www.tiktok.com/@wibu_380",
-    // UDEMY_URL: "https://www.udemy.com/user/eric-7039/",
+    // TIKTOK_URL: "https://www.tiktok.com/@wibu_380",
     FACEBOOK_URL: "https://www.facebook.com/cuchuoi.votinh.355"
 }
 
@@ -39,6 +39,22 @@ export const EXPERIENCES = [
             vi: "Tháng 9/2024 - Tháng 10/2024",
             en: "September 2024 - October 2024"
         }
+    },
+    {
+        id: 3,
+        title: {
+            vi: "Dự án tự làm",
+            en: "Self Employed"
+        },
+
+        company: {
+            vi: "Xây dựng website thi trắc nghiệm",
+            en: "Build quizz website"
+        },
+        duration: {
+            vi: "Tháng 1/2025 - Tháng 2/2025",
+            en: "January 2025 - February 2025"
+        }
     }
 ]
 
@@ -47,16 +63,24 @@ export const PROJECTS = [
         id: 1,
         imgPath: ecomerceImg,
         title: "Xây dựng website thương mại điện tử",
-        description: "Đây là website sản phẩm đầu tay của mình liên quan đến thư viện ReactJs mà mình đã học được",
+        description: "Website thương mại điện tử giúp người dùng mua sắm trực tuyến dễ dàng, quản lý giỏ hàng và thực hiện giao dịch một cách tiện lợi. Admin có thể quản lý danh mục, sản phẩm và tài khoản người dùng.",
         githubLink: "https://github.com/nghiahd147/Website-Ecomerce",
-        demoLink: "https://website-ecomerce.vercel.app/"
+        demoLink: ""
     },
     {
         id: 2,
         imgPath: protocolImg,
         title: "Xây dựng website Protocol",
         description: "Chính là website này đây, project này giúp mình học từ làm việc Reactjs Javascript sang Typescript",
-        githubLink: "",
+        githubLink: "https://github.com/nghiahd147/Portfolio",
+        demoLink: "https://quangnghiacv.vercel.app/"
+    },
+    {
+        id: 3,
+        imgPath: quizImg,
+        title: "Xây dựng website Quizzes",
+        description: "Website thi trắc nghiệm giúp người dùng dễ dàng tham gia các khóa học và làm bài thi online. Admin có thể quản lý danh mục, khóa học, tài khoản,...",
+        githubLink: "https://github.com/nghiahd147/QuizApp",
         demoLink: ""
     }
 

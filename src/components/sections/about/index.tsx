@@ -53,8 +53,6 @@ const About = () => {
                 >
                     <AnimationLottie
                         width="50%"
-                        //animation with rp => convert sang text
-                        // https://github.com/airbnb/lottie-web/issues/2070
                         animationPath={JSON.parse(DEVELOPMENT_LOTTIE)}
                     />
                 </Col>
@@ -92,15 +90,11 @@ const About = () => {
                     <SocialMedia
                         youtube={APP_DATA.YOUTUBE_URL}
                         facebook={APP_DATA.FACEBOOK_URL}
-                        tiktok={APP_DATA.TIKTOK_URL}
-                        // udemy={APP_DATA.UDEMY_URL}
                     />
                 </Col >
                 <Col md={6} xs={12} className="d-flex flex-column align-items-center justify-content-center">
                     <AnimationLottie
                         width="50%"
-                        //animation with rp => convert sang text
-                        // https://github.com/airbnb/lottie-web/issues/2070
                         animationPath={JSON.parse(CONTACT_LOTTIE)}
                     />
                     <h4 className="text-center">Contact me</h4>

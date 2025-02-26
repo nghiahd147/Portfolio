@@ -53,9 +53,6 @@ const HeroRight = () => {
                         <span>{"', '"}</span>
                         <span >MongoDB</span>
                         <span>{"', '"}</span>
-                        <span >NestJs</span>
-                        <span>{"'],"}</span>
-
                     </div>
                     <div>
                         <span className="ms-4  me-2 ">hardWorker:</span>
