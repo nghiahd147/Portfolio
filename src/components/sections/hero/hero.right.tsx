@@ -52,7 +52,7 @@ const HeroRight = () => {
                         <span >Express & Nodejs</span>
                         <span>{"', '"}</span>
                         <span >MongoDB</span>
-                        <span>{"', '"}</span>
+                        <span>{"'],"}</span>
                     </div>
                     <div>
                         <span className="ms-4  me-2 ">hardWorker:</span>
